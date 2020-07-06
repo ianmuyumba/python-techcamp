@@ -1,5 +1,5 @@
-print ("Ian")
-print(10+10)
+# print ("Ian")
+# print(10+10)
 
 # Install a virtual environment
 
@@ -14,5 +14,12 @@ Variable Naming Rules
 	* Should not start with a number eg 5students --> wrong
 	* Should not contain any special characters eg !"$^&%*"
 	* Should not be a keyword
-	
+
 """
+
+myName = "Ian"
+my_age = 24
+
+print(myName)
+
+print(my_age)
