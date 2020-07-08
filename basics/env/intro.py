@@ -65,3 +65,8 @@ myNames = "muyumba"
 
 newName = myNames.capitalize()
 print(newName)
+
+
+# Mypy python
+
+# Question 4
