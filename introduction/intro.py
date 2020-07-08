@@ -23,3 +23,12 @@ my_age = 24
 print(myName)
 
 print(my_age)
+
+
+"""
+	DATATYPES
+		1. Integers
+		2. Numbers
+		3. Boolean
+
+"""
