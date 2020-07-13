@@ -17,12 +17,12 @@ Variable Naming Rules
 
 """
 
-myName = "Ian"
-my_age = 24
-
-print(myName)
-
-print(my_age)
+# myName = "Ian"
+# my_age = 24
+#
+# print(myName)
+#
+# print(my_age)
 
 
 """
@@ -32,3 +32,15 @@ print(my_age)
 		3. Boolean
 
 """
+
+"""
+PYTHON INTRODUCTION TASKS
+
+1. 1. Write a Python program to count the occurrences of the word "python" in a
+given sentence below:
+
+"We are learning how to program in python. I find python programming fun"
+
+"""
+myString = "We are learning how to program in python. I find python programming fun"
+print(myString.count("python"))
