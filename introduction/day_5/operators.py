@@ -25,32 +25,32 @@ Python classifies operators into 7 types
     #
     # ** exponent - left operand raised to the power of right
 
-#
-# num1 = 20
-# num2 = 10
-# num3 = 5
 
-# addition = num1 + num2
-# print(f"Addition: {addition}")
+num1 = 20
+num2 = 10
+num3 = 5
 
-# subtraction = num1 - num2
-# print(f"Subtraction: {subtraction}")
-#
-# multiplication = num1 * num2
-# print(f"Multiplication: {multiplication}")
-#
-# division = num1 / num2
-# print(f"Division: {division}")
-#
-# modulus = num1 % num2
-# print(f"Modulus: {modulus}")
-#
-# floor_division = num1 // num2 # The result is a whole number without decimal points
-# print(f"Floor Division: {floor_division}")
-#
-# exponent = num1 ** num2 # Left operand raised to the power of right
-# print(f"Exponent: {exponent}")
-#
+addition = num1 + num2
+print(f"Addition: {addition}")
+
+subtraction = num1 - num2
+print(f"Subtraction: {subtraction}")
+
+multiplication = num1 * num2
+print(f"Multiplication: {multiplication}")
+
+division = num1 / num2
+print(f"Division: {division}")
+
+modulus = num1 % num2
+print(f"Modulus: {modulus}")
+
+floor_division = num1 // num2 # The result is a whole number without decimal points
+print(f"Floor Division: {floor_division}")
+
+exponent = num1 ** num2 # Left operand raised to the power of right
+print(f"Exponent: {exponent}")
+
 
 # Comparison Operators/Relational Operators
     # They are used to carry out comparison between operands.
@@ -66,16 +66,16 @@ Python classifies operators into 7 types
         # <= less or equal to
         #
         # != not equal to
-# num1 = 20
-# num2 = 10
-# num3 = 5
-#
-# print(num1 > num2) #True
-# print(num1 < num2) #False
-# print(num1 == num2) #False
-# print(num1 >= num2) #True
-# print(num1 <= num2) #False
-# print(num1 != num2) #True
+num1 = 20
+num2 = 10
+num3 = 5
+
+print(num1 > num2) #True
+print(num1 < num2) #False
+print(num1 == num2) #False
+print(num1 >= num2) #True
+print(num1 <= num2) #False
+print(num1 != num2) #True
 
 """
 Logical Operators
@@ -109,17 +109,17 @@ Logical Operators
 # Assignment Operators
 a = 10
 
-# a+1
-# a+5
-# print(a)
+a+1
+a+5
+print(a)
 
-# print(a+1)
-# print(a+5)
-# print(a)
+print(a+1)
+print(a+5)
+print(a)
 
-# a = a + 1
-# a = a + 5
-# print(a)
+a = a + 1
+a = a + 5
+print(a)
 
 a+=1
 a+=5
