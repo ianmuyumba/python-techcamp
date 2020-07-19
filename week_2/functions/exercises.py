@@ -1,6 +1,5 @@
 # 1. Create a function that takes a name and returns a greeting
 
-
 # def greeting(name):
 # 	# Take name and return greeting
 # 	print(f"Hello {name}!")
@@ -8,7 +7,6 @@
 # name = input("Enter Name: ")
 
 # greeting(name)
-
 
 # 2. Write a function that takes the base and height of a triangle and return its area.
 
@@ -24,6 +22,8 @@
 # print(area)
 
 
+
+
 # 3. Create a function that finds the maximum range of a triangles third edge
 		# maximum range of third edge = (side1 + side2) - 1
 
@@ -36,6 +36,7 @@
 
 # next_edge = nextEdge(side1,side2)
 # print(next_edge)
+
 
 
 # 4. Create a function that takes a list and returns the first element
@@ -58,6 +59,10 @@
 # print(first_value)
 
 
+
+
+
+
 # 5. You've got chickens (2 legs), cows (4 legs) and pigs (4 legs) on your farm.
 	# Return the total number of legs on your farm. (CREATE A FUNCTION)
 
@@ -67,6 +72,11 @@
 
 # animals = number_of_legs(2, 3, 5)
 # print(animals)
+
+
+
+
+
 
 # 6. Create a function that takes a list of numbers.
 	# Return the largest number in the list.
@@ -112,6 +122,9 @@
 # print(largestNumber)
 
 
+
+
+
 # 8. Create a function to concatenate two integer lists
 
 # def concat(mylist1,mylist2):
@@ -120,24 +133,117 @@
 # concatenated_list = concat([1, 3, 5], [2, 6, 8])
 # print(concatenated_list)
 
+
+
+
+
 """
 	# 9. Create a function that takes two strings as arguments and return either True or False
 	depending on whether the total number of characters in the first string is equal to the
 	total number of characters in the second string
 """
 
-string1 = input("String 1: ")
-string2 = input("String 2: ")
 
-def lengthString(string1,string2):
-	if len(string1) == len(string2):
-		return True
-	else:
-		return False
 
-result = lengthString(string1,string2)
-print(result)
+# string1 = input("String 1: ")
+# string2 = input("String 2: ")
 
+# def lengthString(string1,string2):
+# 	if len(string1) == len(string2):
+# 		return True
+# 	else:
+# 		return False
+
+# result = lengthString(string1,string2)
+# print(result)
+
+
+"""
+j)Write a function that converts a dictionary into a list, where each element represents a key-value pair.
+
+example:
+
+convert_to_array({ "a": 1, "b": 2 }) ➞ [["a", 1], ["b", 2]]
+
+convert_to_array({ "shrimp": 15, "tots": 12 }) ➞ [["shrimp", 15], ["tots", 12]]
+
+convert_to_array({}) ➞ []
+
+"""
+
+# Method 1
+def dictionaryList(myDictionary):
+	newList = []
+
+	for i in myDictionary.items():
+		newList.append(list(i))
+	return newList
+
+print(dictionaryList({ "a": 1, "b": 2 }))
+
+
+# Method 1
+def dictionaryList(myDictionary):
+	newList = []
+
+	for key, value in myDictionary.items():
+		newList.append([key,value])
+	return newList
+
+print(dictionaryList({ "a": 1, "b": 2 }))
+
+
+"""
+You work for a manufacturer, and have been asked to calculate the total profit made on the sales of a product. You are given a dictionary containing the cost price per unit (in dollars), sell price per unit (in dollars), and the starting inventory. Return the total profit made, rounded to the nearest dollar. Assume all of the inventory has been sold.
+
+example:
+
+profit({
+  "cost_price": 32.67,
+  "sell_price": 45.00,
+  "inventory": 1200
+}) ➞ 14796
+
+profit({
+  "cost_price": 225.89,
+  "sell_price": 550.00,
+  "inventory": 100
+}) ➞ 32411
+
+profit({
+  "cost_price": 2.77,
+  "sell_price": 7.95,
+  "inventory": 8500
+}) ➞ 44030
+
+
+NOTE:Profit = Total Sales - Total Cost
+
+"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# testDictionary = {}
+# newList = []
+
+# def dictionaryList(testDictionary):
+# 	for key, value in testDictionary.items():
+# 		newList.append([key] + val) 
+
+
+# myList = dictionaryList({ "a": 1, "b": 2 })
+# print(myList)
 
 
 
